@@ -5,21 +5,13 @@ import streamlit as st
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(BASE_DIR)
 
-providers = pd.read_csv(
-    os.path.join(PROJECT_ROOT, "deployment_data", "providers_cleaned.csv")
-)
+providers = pd.read_csv("providers_cleaned.csv")
 
-receivers = pd.read_csv(
-    os.path.join(PROJECT_ROOT, "deployment_data", "receivers_cleaned.csv")
-)
+receivers = pd.read_csv("receivers_cleaned.csv")
 
-food = pd.read_csv(
-    os.path.join(PROJECT_ROOT, "deployment_data", "food_listings_cleaned.csv")
-)
+food = pd.read_csv("food_listings_cleaned.csv")
 
-claims = pd.read_csv(
-    os.path.join(PROJECT_ROOT, "deployment_data", "claims_cleaned.csv")
-)
+claims = pd.read_csv("claims_cleaned.csv")
 
 providers_count = len(providers)
 
@@ -116,11 +108,8 @@ elif page == "EDA":
 
         try:
 
-            st.image(
-                f"eda_charts/{chart}",
-                use_container_width=True
-            )
-
+            st.image("provider_type_distribution.png")
+            
         except:
 
             st.warning(
