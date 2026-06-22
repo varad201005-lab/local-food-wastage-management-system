@@ -1,4 +1,5 @@
-﻿1,Gonzales-Cochran,Supermarket,"74347 Christopher Extensions Andreamouth, OK 91839",New Jessica,+1-600-220-0480
+﻿Provider_ID,Name,Type,Address,City,Contact
+1,Gonzales-Cochran,Supermarket,"74347 Christopher Extensions Andreamouth, OK 91839",New Jessica,-1299
 2,"Nielsen, Johnson and Fuller",Grocery Store,"91228 Hanson Stream Welchtown, OR 27136",East Sheena,+1-925-283-8901x6297
 3,Miller-Black,Supermarket,"561 Martinez Point Suite 507 Guzmanchester, WA 94320",Lake Jesusview,001-517-295-2206
 4,"Clark, Prince and Williams",Grocery Store,"467 Bell Trail Suite 409 Port Jesus, IA 61188",Mendezmouth,556.944.8935x401
@@ -19,7 +20,7 @@
 19,Davis Ltd,Supermarket,USCGC Taylor FPO AA 68109,South Melanieshire,117-624-9394x3533
 20,Drake-Martinez,Catering Service,"22920 Carpenter Turnpike Apt. 652 New Steven, AR 33177",East Samantha,001-454-212-3510x6135
 21,Cross Group,Grocery Store,"802 Daniel Highway Lake Sabrinamouth, DE 52427",Port Corystad,(170)989-9040x1296
-22,Miller-Carter,Catering Service,"44329 Hendrix Land Port Christine, AL 43242",Port Lisamouth,+1-868-016-4774
+22,Miller-Carter,Catering Service,"44329 Hendrix Land Port Christine, AL 43242",Port Lisamouth,-5657
 23,Johnson Ltd,Supermarket,"32366 Kathy Fall Rodriguezton, NH 27984",Bradleyborough,916.509.1396x4499
 24,"Black, Collins and Richard",Supermarket,"643 Galvan Burgs Fletcherhaven, AZ 86988",Hestermouth,266.040.9664x08185
 25,Gutierrez-Palmer,Grocery Store,"019 Avila Station Lake Dennisborough, AZ 84988",Anitashire,(155)292-7832x2085
@@ -62,15 +63,15 @@
 62,"Mitchell, Campbell and Jones",Grocery Store,"760 Hall Dam Jenniferstad, MI 28752",Marymouth,001-356-024-1560x512
 63,"Fuller, Vincent and Fernandez",Supermarket,Unit 8327 Box 2560 DPO AP 34781,Mcclainfurt,(268)645-8829
 64,Mullen LLC,Supermarket,"373 Moody Manor Johnfurt, CT 63966",South Michaelhaven,001-134-811-5840x300
-65,Fletcher Inc,Grocery Store,"5294 William Underpass North Angelaborough, TN 26906",Lake Raymondton,+1-445-003-6513
+65,Fletcher Inc,Grocery Store,"5294 William Underpass North Angelaborough, TN 26906",Lake Raymondton,-6960
 66,Lambert-Wilson,Restaurant,"2162 Johnson Field East Caroline, AZ 13953",Lake Michaelfurt,+1-552-690-1512x083
 67,Shannon Ltd,Restaurant,"8692 Adam Passage Davidland, WI 15372",Kentland,401-441-2366x8513
 68,Sherman-Wolfe,Supermarket,"0312 Garcia Ferry Port Deannaberg, DC 72769",North Elizabeth,001-797-628-1681x740
 69,Williams PLC,Grocery Store,Unit 6990 Box 6326 DPO AA 08563,Cummingstown,001-683-268-4210x77233
 70,"Cook, Stanley and Wallace",Supermarket,"1492 Thomas Route East Hannah, HI 37830",Lake Kyle,001-416-322-9367
 71,Jones-Edwards,Restaurant,"861 Martinez Junctions Smithburgh, WA 68091",Ruizmouth,(077)105-8283
-72,"Ward, Shepherd and Krause",Catering Service,"224 Burns Camp Christopherborough, VA 76601",Jasonstad,+1-454-823-5622
-73,Walker-Richards,Grocery Store,"082 Nancy Summit Apt. 187 Hurleychester, PA 09363",West Benjamin,+1-862-704-7597
+72,"Ward, Shepherd and Krause",Catering Service,"224 Burns Camp Christopherborough, VA 76601",Jasonstad,-6898
+73,Walker-Richards,Grocery Store,"082 Nancy Summit Apt. 187 Hurleychester, PA 09363",West Benjamin,-9162
 74,Johnston Ltd,Catering Service,"58406 Pamela Mission Leestad, OH 88592",Belindaville,5630753213
 75,Douglas PLC,Supermarket,"130 Lowe Cove Suite 161 South John, LA 62264",Rodneystad,7650701698
 76,Clark-Estes,Restaurant,"1854 Michael Locks Suite 076 Shaneland, AZ 73210",Port Amandamouth,001-879-812-0126x19146
@@ -92,7 +93,7 @@
 92,Cruz-Day,Catering Service,"98104 Goodman Extension Smithport, PA 37878",East Melissa,266.982.5975
 93,"Davis, Vaughan and Shepherd",Supermarket,"89992 Quinn Plain Apt. 912 North Laura, IN 05742",New Daniel,(147)151-2023x6618
 94,"Cuevas, Smith and Rowe",Grocery Store,"7503 Mclaughlin Crescent Suite 498 Davismouth, DE 08450",Brennanstad,(286)671-0956
-95,Orr Inc,Supermarket,"5940 Klein Junctions Jenniferborough, PA 44116",Christinaland,+1-415-991-8966
+95,Orr Inc,Supermarket,"5940 Klein Junctions Jenniferborough, PA 44116",Christinaland,-10371
 96,"Pierce, Walsh and Rogers",Grocery Store,"8840 Edwards Square Suite 343 Kimside, NE 41307",Deborahland,+1-065-024-5251x529
 97,King-Snyder,Supermarket,"615 Barnett Circles Jamesfort, CT 76455",Reyesshire,+1-494-177-0520x17816
 98,Hogan-Johnston,Supermarket,"00006 Amy Wall Apt. 134 Zimmermanborough, PA 57869",Gardnerfort,184-472-6932
@@ -127,7 +128,7 @@
 127,Vasquez LLC,Restaurant,"70060 Chelsea Trace Suite 180 Lopezburgh, AR 16869",Jasonland,731.947.3123
 128,Martinez-Downs,Catering Service,"38440 Jonathan Pine Suite 612 Millshaven, CO 77071",Port Mariefort,+1-736-853-1037x942
 129,Hicks Ltd,Restaurant,"4349 Michael Fort South Melissa, ND 26423",Port Emily,510.799.8149x819
-130,Nelson-Tran,Catering Service,Unit 6111 Box 7557 DPO AA 52174,New Daniel,+1-167-627-3706
+130,Nelson-Tran,Catering Service,Unit 6111 Box 7557 DPO AA 52174,New Daniel,-4499
 131,"Spencer, Martin and Romero",Restaurant,"42751 Jose Junction Suite 390 New Johnnyberg, MS 26952",Scottton,333.579.4749x45469
 132,Walker-Knox,Catering Service,"353 Donald Tunnel Apt. 330 Fisherview, IA 09906",Huntermouth,+1-787-557-7905x551
 133,Baker LLC,Catering Service,"881 Thomas Valleys Apt. 842 South Danielleland, OR 09264",South Michaelberg,423-570-5106
@@ -162,7 +163,7 @@
 162,"Moore, Perez and Young",Restaurant,"48313 Taylor Junctions Apt. 845 Petersborough, VT 51814",Penabury,345.405.3372x9178
 163,Jackson-Bishop,Restaurant,"1596 Romero Ports Lake Jennifermouth, ME 52335",Annetteburgh,5846608591
 164,Yu-Rodriguez,Grocery Store,"144 Armstrong Viaduct Apt. 561 East Ericchester, UT 19438",Sylviabury,017.590.2372
-165,Silva Group,Grocery Store,"1541 Tara Forge Mathisshire, DE 61123",Copelandchester,0057248175
+165,Silva Group,Grocery Store,"1541 Tara Forge Mathisshire, DE 61123",Copelandchester,57248175
 166,"King, Smith and Mullen",Grocery Store,"9022 Harrington Path Susanport, SD 73387",Lake Donaldmouth,497-136-9598x5778
 167,Thompson-Turner,Catering Service,"995 Campbell Mount Suite 129 Graytown, MN 23216",Davidport,897-925-4252
 168,"Miller, Williams and Lewis",Catering Service,"69419 Michele Trail Apt. 911 Valdezville, NY 53308",Wardton,565.035.8798x7950
@@ -172,12 +173,12 @@
 172,"Parker, Macdonald and Espinoza",Grocery Store,"708 Jones Estates Suite 598 Lake Samuel, RI 75975",Garciaside,776-066-7306x648
 173,Greene Group,Supermarket,"645 Acosta Circle Suite 351 Staceyburgh, TN 64114",Myerschester,552-231-5655x057
 174,"Gillespie, Foster and Boyd",Grocery Store,Unit 1730 Box 5566 DPO AA 26190,North Carolfurt,001-862-502-0221x7258
-175,Olson Ltd,Catering Service,"45318 Delgado Junctions Apt. 756 Jamesburgh, IA 92476",Katherinefurt,+1-446-162-1060
+175,Olson Ltd,Catering Service,"45318 Delgado Junctions Apt. 756 Jamesburgh, IA 92476",Katherinefurt,-1667
 176,Allen-Mccullough,Restaurant,"3715 White Gardens Apt. 568 South Sarah, AK 76176",East John,8921994982
 177,Turner-Ramirez,Supermarket,"53362 Woods Viaduct Apt. 059 Ronaldview, SC 94816",South Nicholasville,679.699.5497
 178,Mcbride-Rogers,Catering Service,"4742 Fischer Club Apt. 161 West Carrieview, WA 33065",Scottchester,820.665.7265x01138
 179,"Lucas, Bush and Miller",Supermarket,"4664 Debra Row Apt. 580 Lake Stephen, TX 87375",North Michelle,3334774489
-180,"Deleon, Guzman and Porter",Grocery Store,"94721 Schultz Neck Apt. 864 South Evanland, WI 88166",South Jeffrey,+1-342-496-7540
+180,"Deleon, Guzman and Porter",Grocery Store,"94721 Schultz Neck Apt. 864 South Evanland, WI 88166",South Jeffrey,-8377
 181,"Black, Montgomery and Hernandez",Restaurant,"118 Karen Fields West Angelaport, GA 22035",Taylormouth,001-763-656-6801x10211
 182,Wilson-Ortiz,Grocery Store,Unit 2603 Box 7875 DPO AP 30589,Port Jeffrey,(345)889-2010
 183,Elliott-Stephens,Grocery Store,"240 Brian Circle Apt. 335 Morrowfurt, KS 49845",South Anne,(416)071-3611x991
@@ -208,7 +209,7 @@
 208,"Miller, Johnson and Fernandez",Restaurant,"228 Kathryn Mountains Suite 986 Cortezmouth, IA 90538",East Garyton,985.790.0081x8718
 209,"Hubbard, Clark and Hicks",Catering Service,"77599 Ruiz Stream South Brianburgh, DC 12695",South Cassandra,272-502-0028
 210,Jones-Miller,Grocery Store,"8892 Patrick Shoals Tristanfort, OH 00576",Paulmouth,028-684-5516x43547
-211,"Anderson, Patrick and Scott",Restaurant,"03198 Washington Ferry Suite 086 South Amberside, GA 92116",Lake James,+1-886-931-4697
+211,"Anderson, Patrick and Scott",Restaurant,"03198 Washington Ferry Suite 086 South Amberside, GA 92116",Lake James,-6513
 212,"Dennis, Parker and Sanchez",Supermarket,"456 Nelson Street Ericside, NH 82097",Port Markview,921-065-5873x078
 213,"Anderson, Robinson and Phillips",Grocery Store,"687 Bell Knoll Suite 015 West Bryan, OR 07413",Andersonville,7809531647
 214,Kelley PLC,Catering Service,Unit 3990 Box 8289 DPO AE 64562,Jamesview,942.961.3748x773
@@ -239,7 +240,7 @@
 239,"Simpson, Thomas and Smith",Grocery Store,"204 Charles Viaduct Perezfurt, WV 57676",South Bradleyburgh,001-117-114-7043
 240,Marshall Ltd,Catering Service,"30050 Christine Square Apt. 097 Kingfort, KS 26841",Andreaborough,+1-314-339-0357x53136
 241,"Harper, Blake and Alexander",Catering Service,"882 Smith Heights East Cherylborough, DC 06299",Devinmouth,(144)381-3923
-242,Aguilar-Frederick,Restaurant,"6353 Chad Circles Brewerland, NM 53897",Michaelport,+1-057-752-7548
+242,Aguilar-Frederick,Restaurant,"6353 Chad Circles Brewerland, NM 53897",Michaelport,-8356
 243,Davis-Hurley,Catering Service,"687 Sparks Forks East Patricia, NC 25546",West Catherine,(172)389-0239x87614
 244,Chan-Elliott,Supermarket,"16644 Kelli Spur Gregoryville, SC 80630",Toddberg,021-322-3933x46620
 245,Williams and Sons,Restaurant,"8921 Juan Ville New Monicashire, MD 92426",Lake Heather,+1-279-007-2137x9870
@@ -283,7 +284,7 @@
 283,Russell-Graham,Supermarket,"7757 Roy Mountain Port Emily, KS 36318",Andrewstad,197-361-9121x02684
 284,Cruz Inc,Supermarket,"96242 Luis Mill South Jeffrey, PA 65606",North Julieburgh,242.471.4335
 285,Sanchez-Fisher,Restaurant,"77514 Todd Creek Apt. 870 East Ashley, ND 47642",West Corey,971.803.6233x098
-286,Watson-West,Restaurant,"864 Martinez Valleys Apt. 859 Byrdland, OH 05345",Williamschester,+1-789-619-8079
+286,Watson-West,Restaurant,"864 Martinez Valleys Apt. 859 Byrdland, OH 05345",Williamschester,-9486
 287,Carr-Wells,Catering Service,"202 Castillo Course Suite 667 New Joshua, OK 47311",Jefferyside,(535)017-9013x9281
 288,Carlson-Mathis,Supermarket,"98491 Matthews Mall Lake Juantown, NY 51580",Maynardstad,518.257.3189x434
 289,Jenkins-Carpenter,Supermarket,"9447 Dixon Orchard Port Jacob, DE 27747",Toddstad,1448122181
@@ -305,7 +306,7 @@
 305,"Wolfe, Garner and Jones",Grocery Store,"88370 Harris Lock Apt. 882 South Catherine, DE 56707",Fullerborough,(373)758-7748x038
 306,"Evans, Wright and Mitchell",Catering Service,"73725 Anthony Way Apt. 971 West Pamela, OH 61366",North Keith,001-726-568-9224
 307,Gonzalez-Parrish,Catering Service,"600 Sanchez Meadow Jessicaview, KY 72375",Heathborough,164.336.2362x38847
-308,Doyle LLC,Catering Service,"8157 Tammy Road West Stephenchester, NC 16381",Brittanyside,0312154595
+308,Doyle LLC,Catering Service,"8157 Tammy Road West Stephenchester, NC 16381",Brittanyside,312154595
 309,"Bell, Davis and Hickman",Catering Service,"4454 Jackson Plaza Apt. 447 Thomasburgh, CT 44776",Ambertown,+1-754-517-2435x37063
 310,"Sullivan, Thornton and Peterson",Grocery Store,"1679 John Court Katherineberg, ID 45885",Saraburgh,(688)116-5399
 311,Fleming Ltd,Grocery Store,"080 Powell Rapid South John, CO 90063",West Amanda,(646)465-3368x3676
@@ -326,7 +327,7 @@
 326,"Bender, Jordan and Bennett",Supermarket,"635 Herrera Trafficway Huynhside, CT 11395",Lake Alicia,001-194-509-7599x83421
 327,"Miller, Conner and Clark",Restaurant,"4464 Shaun Plain Suite 161 Sandraview, TN 76190",Villaborough,+1-075-795-2419x75821
 328,"Walker, Brennan and Townsend",Grocery Store,Unit 9379 Box 7124 DPO AP 65325,Port Rubenville,(194)900-2168
-329,Davidson Group,Restaurant,"1894 Harvey Pike Apt. 102 Davisfort, NE 43626",Port Lauraville,+1-729-788-7288
+329,Davidson Group,Restaurant,"1894 Harvey Pike Apt. 102 Davisfort, NE 43626",Port Lauraville,-8804
 330,Holloway-Koch,Restaurant,"2889 Jorge Fields South Thomasland, AR 38794",Jamesport,323.974.7052
 331,"Edwards, Johnson and Cross",Catering Service,"5969 Burke Ridges North Kevinborough, MT 75005",South Jeffreyburgh,869-227-8515x888
 332,Cox LLC,Restaurant,"406 Lucero Mountain Apt. 736 Mollyport, RI 14316",West Whitneymouth,001-018-140-2068x875
@@ -336,10 +337,10 @@
 336,Mckinney LLC,Supermarket,"52072 Rhonda Flats Lake Brandon, VA 43437",East Sandra,(338)059-6636x909
 337,Hogan-Oliver,Restaurant,"03856 Garcia Course Suite 618 New Patriciamouth, DC 05462",New Ricky,001-484-018-9255x90683
 338,Ibarra LLC,Catering Service,"064 Andrea Land Suite 946 Lake Melody, ME 49581",Adambury,6703380260
-339,Palmer and Sons,Restaurant,"4079 Kathleen Tunnel Lisastad, NE 35010",South Thomas,+1-218-970-3762
+339,Palmer and Sons,Restaurant,"4079 Kathleen Tunnel Lisastad, NE 35010",South Thomas,-4949
 340,"Barry, Powers and White",Grocery Store,"1145 Justin Light Richardside, CT 45760",Murrayborough,(023)817-1166
 341,Jenkins-Carrillo,Grocery Store,"656 Denise Spurs Suite 112 Joshuaborough, NY 66307",Lake Ryanbury,025.332.6781x596
-342,Smith Inc,Catering Service,"00691 Joseph Parks Matthewville, CO 02023",Matthewbury,+1-340-986-4095
+342,Smith Inc,Catering Service,"00691 Joseph Parks Matthewville, CO 02023",Matthewbury,-5420
 343,"Harris, Perez and Willis",Catering Service,"549 Moody Road Suite 873 Jacobshire, VT 80966",South Christopherborough,581-281-6112
 344,"Mcmillan, Gallegos and Perry",Catering Service,"4963 Decker Loop Apt. 710 West Karen, MO 17141",North Nicholas,247-797-3341x5155
 345,Mitchell-Watson,Catering Service,"2215 Jacob Valleys Suite 115 Garcialand, SC 12573",North Tracy,001-366-677-9015
@@ -361,13 +362,13 @@
 361,Fleming Group,Supermarket,"491 Stafford Harbors Apt. 774 Reyesburgh, ID 82774",East Lauren,218.201.2221
 362,Snyder-Gordon,Grocery Store,"952 Browning Port Apt. 921 Sarahhaven, UT 94085",Anthonychester,134-622-9488
 363,Henry-Terry,Catering Service,"94883 Silva Plaza Apt. 966 North Ericborough, WY 57244",East Brittanyland,(205)168-6653
-364,Reid Ltd,Grocery Store,"94855 Gardner Union Suite 670 Lake Diana, OK 96757",Lake Ethanview,+1-880-332-3175
+364,Reid Ltd,Grocery Store,"94855 Gardner Union Suite 670 Lake Diana, OK 96757",Lake Ethanview,-4386
 365,"Bray, Nguyen and Christensen",Restaurant,"27009 Sheri Forges Heidiview, AK 10251",West Robert,589.913.5215x7984
 366,Harrell-Hanson,Restaurant,"660 Anthony Canyon Suite 057 Arnoldchester, MA 72162",Devinton,4957265323
 367,Patel and Sons,Grocery Store,"7364 Green Wall Suite 340 Fisherbury, VA 78253",Deckermouth,+1-731-068-2964x54440
 368,Smith-Villegas,Grocery Store,"5916 Craig Courts New Kevinfurt, MS 57479",North Lindseychester,001-467-901-7553
 369,"Weeks, Wood and Sharp",Catering Service,"4812 Paul Plaza North Amanda, WI 89597",Brownton,(200)440-3875
-370,Cox-Richmond,Supermarket,USNS Ingram FPO AA 14461,Williamsland,+1-572-551-8798
+370,Cox-Richmond,Supermarket,USNS Ingram FPO AA 14461,Williamsland,-9920
 371,"Montgomery, Dominguez and Hopkins",Grocery Store,"565 Davis Shoals New James, ND 98971",Solisburgh,575.394.8230x121
 372,Elliott-Jones,Restaurant,Unit 8546 Box 6518 DPO AE 36672,Lewisberg,690.272.6499
 373,Avila Group,Grocery Store,"099 Rodriguez Creek Ronaldport, RI 02598",Aprilberg,001-835-594-3012x252
@@ -379,13 +380,13 @@
 379,Payne-Pena,Supermarket,"6560 Jesse Brooks Suite 699 North Rebeccafort, ID 49869",Millerstad,(370)216-0851
 380,Nelson PLC,Restaurant,USNS Walker FPO AE 02837,Lake Christophermouth,(302)042-7352
 381,"Cruz, Lee and Fernandez",Supermarket,"659 Janice Land Apt. 415 Christopherburgh, CT 46250",Martinville,973-312-0803
-382,"Bruce, Lewis and Anderson",Restaurant,"587 Julie Oval Apt. 908 South Elizabethbury, IA 98406",Ritterburgh,+1-087-761-6513
+382,"Bruce, Lewis and Anderson",Restaurant,"587 Julie Oval Apt. 908 South Elizabethbury, IA 98406",Ritterburgh,-7360
 383,Hines-Rangel,Supermarket,"595 Walker Islands Casetown, UT 11286",Barryside,2330894330
 384,Rogers-Warren,Grocery Store,"408 Katelyn Bridge Dayshire, LA 95554",Jamesfurt,001-439-195-6960
 385,Fitzpatrick and Sons,Catering Service,"492 Wright Wells Apt. 328 West Charles, WI 51630",New Tammyland,+1-011-366-8942x777
 386,Miranda Ltd,Grocery Store,"71888 Peterson Gardens Suite 750 Port Susan, SD 20635",Wheelermouth,490-189-7305x43330
 387,Barrera-Ward,Grocery Store,"55591 Eric Corners Apt. 955 Riveraburgh, NJ 52897",West Juliabury,958.242.0037
-388,Rivera Ltd,Supermarket,"2319 Wong Station Apt. 425 Morrisonbury, KY 44766",Manuelhaven,+1-832-244-5987
+388,Rivera Ltd,Supermarket,"2319 Wong Station Apt. 425 Morrisonbury, KY 44766",Manuelhaven,-7062
 389,Hunt-Lee,Grocery Store,"1004 Michael Mission East Kenneth, NY 07626",Davidborough,001-681-802-0601x91223
 390,"Case, Anderson and Morris",Catering Service,"6712 Rojas Inlet Suite 958 Schmidtbury, ME 51653",Taylorfort,732-582-4147x6156
 391,Lambert Ltd,Supermarket,"10860 Jones Fields North Nicholasmouth, MI 89187",South Jerryside,351.542.5864x527
@@ -412,7 +413,7 @@
 412,Farmer-Gilbert,Grocery Store,"73098 Charles Harbor Suite 608 Welchbury, WY 30443",Robertland,(375)215-6908
 413,"Davis, Bowen and Miller",Catering Service,"418 Adam Mission Suite 750 Jessicaville, OR 26759",North Mike,9207424674
 414,Gonzales Group,Supermarket,"9183 Robert Mill Suite 331 Curtisview, MI 18328",New Matthew,+1-790-667-8198x9396
-415,Thomas and Sons,Supermarket,"58989 Matthew Isle Port Michaelview, AZ 51434",Christopherchester,0397863480
+415,Thomas and Sons,Supermarket,"58989 Matthew Isle Port Michaelview, AZ 51434",Christopherchester,397863480
 416,Cohen LLC,Supermarket,Unit 8432 Box 4483 DPO AA 07457,East Anthony,505-968-5997x50685
 417,"Glover, Wilson and Hudson",Restaurant,"3045 Joshua Fall Suite 109 Khanshire, AL 47705",East Ashleyshire,(315)080-3138
 418,"Schwartz, Odonnell and Padilla",Restaurant,"23011 Barnett Falls Apt. 524 West Cameron, WY 52614",Deborahfurt,955-658-8107x92494
@@ -454,7 +455,7 @@
 454,"Cruz, Branch and Pierce",Grocery Store,Unit 0162 Box 8564 DPO AA 55163,South Lisabury,000.621.1526
 455,Rios Group,Catering Service,"58472 Snyder Squares Port Zacharyton, CT 67515",Madisonfort,003-727-0894x163
 456,Simmons PLC,Grocery Store,"7157 Denise Estate Suite 437 Paulland, AR 99422",North Katelyn,(272)507-6150
-457,Smith-Rodriguez,Restaurant,"90439 Henderson Common Suite 037 West Paulport, AL 92938",South Linda,+1-561-628-5780
+457,Smith-Rodriguez,Restaurant,"90439 Henderson Common Suite 037 West Paulport, AL 92938",South Linda,-6968
 458,Smith Inc,Grocery Store,"23176 Moore Viaduct Apt. 227 South Racheltown, AR 68895",New Robertland,(260)635-1016
 459,Brown Ltd,Supermarket,"8358 Randy Mission Markmouth, SC 03456",Castilloport,164.699.6716
 460,"Gutierrez, Anthony and Shannon",Grocery Store,"6787 Jamie Fords Suite 103 Wademouth, IL 18159",Lake Justin,2924416283
@@ -502,7 +503,7 @@
 502,Mcdaniel-Bates,Supermarket,"2198 Alexis Passage Apt. 287 Sylviaville, MN 08405",Liberg,(398)855-7507x166
 503,Abbott-Robinson,Restaurant,"PSC 1306, Box 2371 APO AA 44403",Joseville,449-700-6900x46176
 504,Small Ltd,Catering Service,"85125 Deanna Garden New Sherry, IL 97694",Gaineschester,1943075475
-505,"Sutton, Day and Brooks",Restaurant,"PSC 0203, Box 6449 APO AA 03081",Chelseaside,+1-651-831-7090
+505,"Sutton, Day and Brooks",Restaurant,"PSC 0203, Box 6449 APO AA 03081",Chelseaside,-8571
 506,Davis-Glenn,Catering Service,"94687 Debra Motorway Suite 487 Steinport, OK 46407",Tylerton,519-068-6168
 507,Rojas-Cook,Grocery Store,"397 Ruth Track South Alyssa, NE 98089",Lake Diane,+1-019-312-8887x18286
 508,"Goodwin, Acosta and Chan",Restaurant,"81662 Lawrence Mountains Apt. 545 Sarahstad, ND 47525",Walkerfurt,001-076-856-9568x65782
@@ -526,7 +527,7 @@
 526,"Harrington, Jimenez and Carr",Supermarket,"7266 Alvarez Junctions Suite 564 New Robertfort, MT 85213",South Tylerstad,154-764-8062
 527,"Moran, Mcmillan and Jones",Supermarket,"13859 Brandon Burg Suite 195 Jamesshire, KS 72927",Bonillahaven,001-261-466-0296x4350
 528,Baird PLC,Supermarket,"10521 Jared Mill Suite 659 Mccormickhaven, MO 07533",Markport,001-930-122-6265x199
-529,"Macdonald, Hale and Garcia",Grocery Store,"26656 April Cliffs Apt. 770 Terriville, NV 90626",Dannybury,+1-654-546-9999
+529,"Macdonald, Hale and Garcia",Grocery Store,"26656 April Cliffs Apt. 770 Terriville, NV 90626",Dannybury,-11198
 530,"Spencer, Eaton and Young",Catering Service,"904 Freeman Lodge Suite 905 Lake Stephanieshire, NE 73215",Johnstonhaven,808.707.2502x64682
 531,Miller Ltd,Catering Service,"5262 Roy Village Jonville, HI 04740",North Kylestad,(648)470-0469x880
 532,Johnson-Green,Grocery Store,"7369 Kenneth Haven Andrewborough, UT 47985",Darrylchester,001-090-513-0319x965
@@ -555,7 +556,7 @@
 555,"Valencia, Floyd and Jordan",Grocery Store,"755 James Greens Apt. 111 South Thomaschester, MT 65536",South Brenda,864.386.4484x7247
 556,"Reyes, Houston and Esparza",Catering Service,"60546 Amanda Canyon Holmesmouth, ME 97812",Brittanyland,7525269578
 557,Smith PLC,Restaurant,USNS Riley FPO AA 59840,East Aaron,911-068-2655x53558
-558,Beck Group,Catering Service,"0291 Williams Harbor Suite 127 Hooverchester, ID 89542",North Sharonberg,+1-153-394-0994
+558,Beck Group,Catering Service,"0291 Williams Harbor Suite 127 Hooverchester, ID 89542",North Sharonberg,-1540
 559,"Young, Moran and Morris",Catering Service,"0953 Davis Well Apt. 329 West Maurice, NC 31745",New Baileyfort,+1-750-812-7169x04781
 560,Cunningham-Wyatt,Supermarket,"5900 Mccullough Mountain Apt. 363 Kristineland, NV 53404",East Donnafort,+1-699-003-9200x964
 561,"Smith, Walker and Jackson",Supermarket,"84921 Donald Ferry North Matthewburgh, NV 11482",Kennedychester,868.068.0443
@@ -583,11 +584,11 @@
 583,Martin-Wright,Catering Service,"45525 Ronald Forks Mauricestad, ID 75984",Marcstad,(870)723-3756x318
 584,Sanders-Hale,Supermarket,"41546 Frank Islands Lake Reginaldberg, AR 06319",Moralesside,+1-625-938-4941x95891
 585,Warren Group,Grocery Store,"1956 Moreno Plains Apt. 468 Trevorfort, LA 26796",Port Donnaton,756-246-6838x5142
-586,Wilson PLC,Supermarket,"6412 Suarez Meadow Lake Frank, UT 86790",Jonesport,+1-025-297-0385
+586,Wilson PLC,Supermarket,"6412 Suarez Meadow Lake Frank, UT 86790",Jonesport,-706
 587,"Davis, Cruz and Schaefer",Restaurant,"6913 Duarte Points Apt. 445 Ramosside, IL 10904",Lake George,4142908031
 588,"Collins, Oconnor and Blake",Grocery Store,"232 Pollard Shores Donaldmouth, TX 19845",Vazquezland,001-491-899-7575x46954
 589,"Boyd, Padilla and Simpson",Restaurant,"95686 Franco Mountains Suite 475 North Larry, WI 78578",Morganhaven,694-875-6150
-590,Adams-Young,Grocery Store,"11551 Lisa Rapids Lesterhaven, IA 88565",Richchester,+1-483-651-5816
+590,Adams-Young,Grocery Store,"11551 Lisa Rapids Lesterhaven, IA 88565",Richchester,-6949
 591,Miller Inc,Grocery Store,"338 Robertson Crossing Monicaborough, AK 65253",New Leslieport,954-049-4239
 592,Chan PLC,Restaurant,"27777 Stephanie Plains Jasonhaven, RI 35762",North Brendaborough,001-777-423-2427x587
 593,"Spencer, Gibson and Arias",Grocery Store,"04212 Gonzalez Shoals Suite 814 Stephenton, MO 69807",Tammyside,525.724.0172x690
@@ -602,7 +603,7 @@
 602,Cole LLC,Grocery Store,USS Zhang FPO AP 50279,North Destiny,001-078-379-8075x2377
 603,Waters-Bass,Restaurant,"1890 Jeremy Road Suite 876 Robertborough, DC 41078",West Stephen,708.632.3778x183
 604,Cook Inc,Supermarket,"2181 Heather Plain Millerville, NJ 64347",New Lisa,+1-439-023-8330x00528
-605,Maddox PLC,Catering Service,"20566 Aguilar Road Suite 772 New David, FL 55621",West Tylerberg,0841228942
+605,Maddox PLC,Catering Service,"20566 Aguilar Road Suite 772 New David, FL 55621",West Tylerberg,841228942
 606,"Freeman, Decker and Johnson",Grocery Store,"6294 Gregory Throughway Suite 517 West Marychester, NM 35832",North Nathan,290-849-5446x412
 607,"Mclean, Lopez and Stephens",Supermarket,"1800 Robert Drive West Shannonton, GA 52400",Shawnborough,357.864.2606x99209
 608,Love-Montgomery,Grocery Store,"36635 Lang Fords Apt. 863 South James, FL 70248",Collinsmouth,164-269-8070
@@ -638,7 +639,7 @@
 638,Patterson Inc,Restaurant,"440 Donald Corner Apt. 571 Sandraberg, VA 54153",Jeffreyport,019.231.7207
 639,Chandler-Roberts,Supermarket,"0090 Jerry Viaduct Lake Suzannechester, GA 84592",Richardsonhaven,(671)036-0993x233
 640,"Cook, Jackson and Griffith",Grocery Store,"45823 Wright Point Apt. 175 Morrowbury, SC 14712",West Tinamouth,496.170.0536x12668
-641,Burns-Smith,Supermarket,"337 Leblanc Lodge Apt. 412 Markburgh, NM 79330",Tammyside,+1-554-290-0096
+641,Burns-Smith,Supermarket,"337 Leblanc Lodge Apt. 412 Markburgh, NM 79330",Tammyside,-939
 642,Woodward-Jensen,Catering Service,USCGC Ewing FPO AP 42279,Lesterstad,432-670-6542x60306
 643,Dixon LLC,Supermarket,"11321 Nicholas Estates Suite 016 Leeland, LA 25575",North Ebony,+1-283-422-5540x00555
 644,Walsh-Jones,Restaurant,"1201 Jesus Port West Alicia, MI 39222",Sandersshire,327-092-6148
@@ -651,7 +652,7 @@
 651,Robinson and Sons,Supermarket,"51806 Natalie Throughway Apt. 212 South Alyssa, MA 55906",North Lisamouth,+1-199-421-8051x664
 652,Sullivan-Golden,Catering Service,"272 Linda Drives Avilaland, AK 39073",Port John,101.936.1050x09281
 653,"Perry, Perez and Carter",Catering Service,"178 Randy Fords East Chadton, TX 86183",Cameronside,085.588.5857
-654,"Hunt, Lee and Winters",Supermarket,"310 James Locks Suite 685 Chenfurt, OK 58448",Derekland,+1-858-989-2963
+654,"Hunt, Lee and Winters",Supermarket,"310 James Locks Suite 685 Chenfurt, OK 58448",Derekland,-4809
 655,Smith Group,Restaurant,USCGC Meyer FPO AP 46538,Jimmyberg,694.134.6616x8811
 656,Henry PLC,Restaurant,"10897 Duncan Manors Apt. 117 Whitneyshire, IA 92311",South Tiffanyfort,104.576.7855x2145
 657,Carpenter-Wright,Supermarket,"2253 Paul Circles Taylorland, CA 85679",Davidland,001-482-381-7341x4903
@@ -670,7 +671,7 @@
 670,West-Reilly,Supermarket,"756 Megan Ranch Apt. 775 Port Jeffery, IL 94423",Lake Jaclyn,573.885.9975x59706
 671,Sanders and Sons,Grocery Store,"0805 Nicholas Oval Suite 499 New Randy, WI 52774",North Catherine,+1-308-986-2848x196
 672,"Ferguson, Henderson and Watson",Catering Service,"89711 Cassandra Overpass Williamchester, AZ 28267",North Mariahchester,351-379-8297x4923
-673,Reynolds Group,Restaurant,"7279 Joseph Ramp Port Shawnborough, GA 33669",New Connorfort,+1-708-661-1330
+673,Reynolds Group,Restaurant,"7279 Joseph Ramp Port Shawnborough, GA 33669",New Connorfort,-2698
 674,Reid-Johnson,Restaurant,"3607 Williams Canyon Suite 553 East Marcmouth, DC 84269",Anthonyhaven,071-461-6662x422
 675,Stevens-Lopez,Grocery Store,"52096 Jeremy Place Ambertown, AL 54808",Peterhaven,234.858.2605x778
 676,Osborne LLC,Catering Service,"448 Thompson Creek West Diane, WV 52163",Lake Jasmin,+1-340-436-8105x510
@@ -689,7 +690,7 @@
 689,"Rodriguez, Robinson and Conway",Catering Service,"4059 Jenkins Ports Suite 961 North Colleen, AZ 95737",Holtmouth,835.650.9674
 690,Valenzuela-Garrett,Grocery Store,"824 Harold Heights Evansborough, MA 43364",Lake Cheryl,+1-552-433-1217x647
 691,"Obrien, King and Robinson",Restaurant,"560 Diane Place North Carla, SC 62821",Youngchester,+1-513-264-8229x419
-692,"Rocha, Johnson and Dunlap",Supermarket,"31552 Jodi Motorway Suite 547 Allenport, AR 98936",South Andrewport,+1-596-531-4868
+692,"Rocha, Johnson and Dunlap",Supermarket,"31552 Jodi Motorway Suite 547 Allenport, AR 98936",South Andrewport,-5994
 693,Salazar PLC,Restaurant,"384 Allison Ports North Rachel, CT 22924",Raybury,180-591-9657x697
 694,Avery PLC,Supermarket,"679 Quinn Rapid Apt. 934 Joyborough, WY 99210",Amandashire,589.122.1214x989
 695,Fox-Perez,Supermarket,Unit 3530 Box 4051 DPO AA 84294,Hayesville,(418)506-2217x0513
@@ -714,8 +715,8 @@
 714,Ramos Group,Catering Service,"2242 Olivia Grove Haileymouth, NH 71518",North William,727-987-0431x177
 715,Reyes-Stewart,Restaurant,"PSC 8297, Box 4959 APO AA 73797",South Jason,550-821-0945
 716,Wright-Hogan,Catering Service,"67942 Butler Stream Apt. 519 West Terrichester, NV 43420",North Ryan,001-280-488-8210x18348
-717,Shepherd and Sons,Catering Service,"533 Peters Locks Suite 995 West Mindyhaven, MS 87079",Pamelaberg,+1-508-027-9784
-718,Livingston Inc,Restaurant,"451 Smith Orchard Suite 751 East Rebecca, VA 23186",Port Victoria,+1-956-381-7075
+717,Shepherd and Sons,Catering Service,"533 Peters Locks Suite 995 West Mindyhaven, MS 87079",Pamelaberg,-10318
+718,Livingston Inc,Restaurant,"451 Smith Orchard Suite 751 East Rebecca, VA 23186",Port Victoria,-8411
 719,Graham PLC,Restaurant,"718 Christina Fall New Martinville, WV 97137",East Cynthia,743.262.1457x01922
 720,"Page, Smith and Davis",Restaurant,"065 Mary Estate Apt. 886 North Jessica, NY 33169",Francisshire,921-470-8846x3047
 721,Randolph-Bauer,Catering Service,"117 Kayla Ramp Suite 638 Jenniferstad, MS 30328",Port Staceymouth,2885719618
@@ -745,11 +746,11 @@
 745,"Martinez, Armstrong and Carroll",Grocery Store,"43311 Lewis Ville South Davidside, MA 08450",East Lisa,(577)786-8133
 746,Carr-Morrison,Grocery Store,"26296 Brennan Neck Apt. 815 Leahville, WA 35764",Sarahside,331-309-4173
 747,"Stafford, Johns and Dunn",Restaurant,Unit 5820 Box 3745 DPO AP 87833,Richardmouth,761-727-3251
-748,Adams and Sons,Supermarket,"849 Ernest Ramp Apt. 938 West Sharon, UT 25509",Port Hannah,0508335147
+748,Adams and Sons,Supermarket,"849 Ernest Ramp Apt. 938 West Sharon, UT 25509",Port Hannah,508335147
 749,Ramirez Inc,Grocery Store,"971 Rodgers Drive Suite 338 North Karabury, VA 79151",Lisafort,001-397-293-6050x2868
 750,Barnes and Sons,Supermarket,"41662 John Shoals Apt. 246 West Shannon, NM 07777",Michaelton,(547)040-4732
 751,"Bryant, Jacobson and West",Restaurant,"127 Michelle Views Suite 097 Lake Steven, TX 04725",East Richardside,001-075-347-0236x69878
-752,Butler-Richardson,Grocery Store,"99213 George Spurs Suite 321 Petersenberg, MA 55289",East Heatherport,+1-268-505-2616
+752,Butler-Richardson,Grocery Store,"99213 George Spurs Suite 321 Petersenberg, MA 55289",East Heatherport,-3388
 753,Lawrence-Clark,Supermarket,"699 Brooks Parkway Davisside, AL 18704",South Randy,122-170-5452x33780
 754,Rodriguez and Sons,Restaurant,"210 Dickerson Pine Port Troy, KY 22574",North Sharonburgh,477.309.3018x208
 755,Jackson-Good,Restaurant,"1947 Leonard Mission Suite 695 East Kenneth, NJ 60142",Port Rebekah,5402653116
@@ -795,7 +796,7 @@
 795,Rollins-Mclaughlin,Catering Service,"9872 Reginald Locks Suite 116 Deniseland, CO 25700",Brownberg,728-509-6340x7211
 796,Meyers-Black,Supermarket,"60983 Garcia Ways Apt. 475 Gracefort, WI 40941",Drakeville,713-138-1523x7028
 797,Reed-Williams,Catering Service,"57484 Adams Well Apt. 314 Jonesfort, VT 30639",Derekshire,001-403-694-6449
-798,Jordan LLC,Grocery Store,"2673 Maria Knolls Comptonborough, NY 52749",North Amanda,+1-073-137-5460
+798,Jordan LLC,Grocery Store,"2673 Maria Knolls Comptonborough, NY 52749",North Amanda,-5669
 799,Estes LLC,Catering Service,"175 Douglas Flat Gregoryside, WI 12800",Leslieville,001-429-296-5587x7891
 800,"Hughes, Fuller and Sanchez",Catering Service,"19447 Michael Locks Apt. 580 Thompsonburgh, NJ 75869",East Amyfurt,(040)473-0155
 801,Black Group,Catering Service,"470 Renee Oval South Julia, KY 65367",North Joseph,001-996-238-7255x85073
@@ -814,13 +815,13 @@
 814,"Scott, Lopez and Baldwin",Grocery Store,"335 Mark Center Grantport, HI 41240",Allenborough,001-590-644-2836
 815,Brown-Butler,Grocery Store,USCGC Steele FPO AE 35280,Ashleyhaven,(509)390-1118
 816,Dunlap Inc,Supermarket,"416 Mariah Ridge Suite 777 New Laurafurt, TN 19711",New Jamesburgh,909-720-0844
-817,Mullins Ltd,Restaurant,"762 Young Locks Apt. 246 Brownhaven, WV 44739",Walterton,+1-104-312-3559
+817,Mullins Ltd,Restaurant,"762 Young Locks Apt. 246 Brownhaven, WV 44739",Walterton,-3974
 818,"Murphy, Harris and Quinn",Restaurant,"PSC 3393, Box 0158 APO AE 18045",Port Brett,(080)535-3645
 819,Wallace and Sons,Restaurant,"7743 Russell Cove Port Tonyatown, KS 97653",Robertschester,(277)528-2339
 820,Sanchez Group,Supermarket,USS Hernandez FPO AP 68693,New Emily,(797)145-6559x37937
 821,Peck-Norris,Supermarket,"75929 Tyler Corner Lake Christopherland, VT 54608",Jordanberg,447-812-4442
 822,"Thomas, Brock and Ali",Grocery Store,"2636 Hayes Landing Ramseychester, PA 35913",Lake Kelly,5020875543
-823,Murphy Ltd,Restaurant,"8991 Elizabeth View Andrewston, MT 46774",South Andrew,+1-698-306-6977
+823,Murphy Ltd,Restaurant,"8991 Elizabeth View Andrewston, MT 46774",South Andrew,-7980
 824,Howard-Williams,Supermarket,"662 Brenda Inlet Apt. 504 North Calvin, AK 36811",Lopezport,(728)156-2658x7091
 825,"Smith, Lynch and Anderson",Supermarket,"85965 Vanessa Hollow New Patriciamouth, WA 82198",South Bryan,+1-560-761-6843x29675
 826,"Rogers, Harmon and Gordon",Supermarket,"13984 Mann Ford Apt. 634 Port Johnside, AL 55278",Lake Karenfurt,(421)106-2871x5106
@@ -855,18 +856,18 @@
 855,"Cox, Rogers and Horne",Restaurant,"558 Shawn Well Apt. 218 Lake Saraville, IA 58123",Bryantton,045-288-0356
 856,"Hernandez, Lee and Dodson",Grocery Store,"4238 Jerry Ranch Suite 083 Kiddview, RI 15092",Brewerfort,+1-563-810-9329x657
 857,Holmes-Schaefer,Supermarket,"61354 Tina Cliff Sandershaven, UT 60062",Jordanborough,759-916-3267x89739
-858,"Petersen, Morrison and Woods",Restaurant,"7626 Stephanie Creek Suite 634 Juliashire, WI 41937",Johnsonborough,+1-978-137-1967
+858,"Petersen, Morrison and Woods",Restaurant,"7626 Stephanie Creek Suite 634 Juliashire, WI 41937",Johnsonborough,-3081
 859,Bradshaw Ltd,Restaurant,"PSC 6707, Box 4294 APO AA 42923",Frostberg,056-604-3679
 860,Fields-Craig,Catering Service,"69619 Townsend Square Apt. 545 South Hollyside, LA 94071",North Valerie,001-120-459-4801
 861,"Rogers, Robbins and Cook",Grocery Store,"9927 Russell Pike North Barry, NM 90744",Lake Kendramouth,387-013-3363
 862,Obrien-Carr,Grocery Store,"7915 Jacob Tunnel Suite 241 New Lisaport, HI 08755",East Tammy,096.381.4881x4011
 863,Johnson-Mejia,Restaurant,USNS Callahan FPO AA 79594,Port Michael,(145)733-6977x4017
-864,Mckinney-Harris,Catering Service,"9562 Moore Vista Port Michael, HI 54640",Cabreraberg,+1-913-248-1353
+864,Mckinney-Harris,Catering Service,"9562 Moore Vista Port Michael, HI 54640",Cabreraberg,-2513
 865,Coleman LLC,Grocery Store,"972 Gonzalez Lodge Richardsonview, UT 93978",New Frank,(238)095-1783
 866,Jones-Patterson,Grocery Store,"622 Alan Park Apt. 298 Lake Kimberly, ND 78178",New Robertstad,940.354.9558
 867,Simpson Group,Supermarket,"2348 Daniel Crossing South Sarahhaven, CO 35631",Judystad,+1-774-532-9866x479
 868,"West, Martinez and Warren",Grocery Store,"185 Bruce Mission Janeburgh, MI 52383",Rodriguezview,(042)376-1212x66871
-869,Manning and Sons,Restaurant,Unit 1702 Box 1802 DPO AE 00968,Port Hannahmouth,+1-821-052-6448
+869,Manning and Sons,Restaurant,Unit 1702 Box 1802 DPO AE 00968,Port Hannahmouth,-7320
 870,Mcgee PLC,Supermarket,"651 James Path West Stephenside, MT 25848",New Hollyfurt,378-777-7668x60325
 871,"Burke, Yates and Hicks",Supermarket,"6295 Eric Valleys Suite 028 Taylorhaven, AR 18369",Madelinechester,868-621-1107x14787
 872,Calderon-Torres,Supermarket,"020 Griffin Glen Suite 717 Molinafurt, MS 51202",Ramosville,(793)661-2764
@@ -881,14 +882,14 @@
 881,"Hall, Taylor and Anderson",Restaurant,"22046 Barry Turnpike Apt. 458 Wilsonshire, GA 77403",New Jenniferbury,001-595-456-3203
 882,"Freeman, Allen and Castaneda",Supermarket,"58124 Reeves Stream Suite 880 Dayfurt, IA 16577",Jenniferville,(162)139-2884
 883,"Lewis, Wagner and Solis",Supermarket,"250 Chloe Common South Elizabethbury, NH 23690",New Jacob,001-094-480-8706
-884,Hill-Anderson,Grocery Store,"500 Jones Circles Apt. 341 Brendaside, NJ 13591",Robinsonfort,+1-645-245-9145
+884,Hill-Anderson,Grocery Store,"500 Jones Circles Apt. 341 Brendaside, NJ 13591",Robinsonfort,-10034
 885,"Spears, Anderson and Huffman",Restaurant,"4257 Roberto Squares New Timothyhaven, NY 01630",Lake Stephen,1906277080
 886,Gentry and Sons,Restaurant,"913 Katrina Mountains Apt. 164 East Thomas, NJ 59999",New Tiffanystad,(845)076-7276
 887,Preston-Smith,Supermarket,"18358 Moore Spring Suite 713 Gordonshire, MT 45298",Strongmouth,(813)326-3277x75776
 888,Schmidt-Alexander,Supermarket,"96966 Smith Expressway Lauraburgh, MD 50475",West Sharonview,(616)029-0456x6126
 889,Bass LLC,Restaurant,"7188 Zachary Views Lake Nicolehaven, AL 24903",Owensstad,996.149.6393x30141
 890,"Simpson, Mcguire and Brown",Restaurant,"950 Dawn Mountains New Robert, MI 58996",Pereztown,274.464.1201x34627
-891,Walter-Stevens,Supermarket,"32820 Lozano Fork Emilybury, HI 03708",Charlesland,+1-760-908-2031
+891,Walter-Stevens,Supermarket,"32820 Lozano Fork Emilybury, HI 03708",Charlesland,-3698
 892,Flores-Wade,Grocery Store,"43443 Campbell Highway Ricetown, MA 95006",Russellfurt,525-492-4716
 893,"Cooper, Harvey and Jordan",Restaurant,"241 Ethan Gardens Suite 016 Kevinshire, MD 90518",Gomezfurt,119-434-3757
 894,Fowler-Morgan,Restaurant,"684 Mike Mission Suite 131 East Sharonmouth, ME 61479",Cannonside,+1-427-871-1303x0408
@@ -923,7 +924,7 @@
 923,Rodriguez Inc,Supermarket,"937 Murray Turnpike Lorrainestad, RI 37088",Jonestown,1383312143
 924,Rosales-Dillon,Supermarket,"462 Nicole Common Wheelermouth, VA 10670",Port Donnamouth,259.371.8249
 925,White Ltd,Restaurant,"04589 Cole Highway Suite 011 Sheltonbury, MN 56672",East Jesse,(870)515-3806
-926,Perkins Ltd,Grocery Store,"6749 Stewart Trace New Thomas, KY 96239",North Chase,+1-701-674-2402
+926,Perkins Ltd,Grocery Store,"6749 Stewart Trace New Thomas, KY 96239",North Chase,-3776
 927,Clark-Miranda,Catering Service,"54388 John Bypass Suite 842 New Kimberly, AL 69199",East Benjaminland,001-517-180-8109x1808
 928,Larson and Sons,Catering Service,"5591 Kathleen Route Apt. 687 South Paul, NC 69885",Zimmermanton,152.836.4864
 929,Allen LLC,Catering Service,"11055 Hayes Island Suite 805 Cynthiatown, ME 65521",Lake Richardhaven,474-088-6934
@@ -949,7 +950,7 @@
 949,"Jackson, Howe and Gentry",Supermarket,Unit 6067 Box 3679 DPO AA 63953,Lake Deborah,071-338-9174
 950,Robinson-Gibson,Supermarket,"699 Brenda Landing Petersstad, NH 95795",South Zacharymouth,001-313-085-7612
 951,"Hodge, Lee and Washington",Grocery Store,"2730 Shannon Mall Apt. 069 Owensburgh, MO 32097",Spenceland,2321569552
-952,"Harris, Mcdonald and Taylor",Grocery Store,"0039 Alexander Terrace Apt. 565 Aprilborough, MI 33494",Samueltown,+1-648-160-9304
+952,"Harris, Mcdonald and Taylor",Grocery Store,"0039 Alexander Terrace Apt. 565 Aprilborough, MI 33494",Samueltown,-10111
 953,Obrien-Zhang,Supermarket,"29928 Hawkins Glens Suite 830 Millerfort, AK 35617",West Abigailtown,(766)455-6356
 954,Herrera LLC,Catering Service,"03238 Singh Mill Apt. 542 Donaldburgh, IL 63546",Randallchester,8412901538
 955,Williams PLC,Catering Service,"0627 Keith Ferry Apt. 778 North Melaniechester, NY 94824",Wrightville,(730)287-3289
