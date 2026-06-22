@@ -16,8 +16,8 @@ food = pd.read_csv("food_listings_cleaned.csv")
 #st.write(food.columns.tolist())
 
 claims = pd.read_csv("claims_cleaned.csv")
-st.write("CLAIMS COLUMNS:")
-st.write(list(claims.columns))
+#st.write("CLAIMS COLUMNS:")
+#st.write(list(claims.columns))
 
 providers_count = len(providers)
 
