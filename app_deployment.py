@@ -19,15 +19,12 @@ st.markdown("""
 <style>
 
 div[data-testid="metric-container"] {
-    background-color: #f8f9fa;
-    border: 2px solid #e9ecef;
-    border-radius: 12px;
-    padding: 15px;
+    background-color: #F0F2F6;
+    border: 2px solid #00C853;
+    border-radius: 15px;
+    padding: 20px;
     text-align: center;
-}
-
-div[data-testid="metric-container"] label {
-    font-weight: bold;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
 }
 
 </style>
@@ -63,7 +60,8 @@ completed_claims = len(
 # SIDEBAR
 # --------------------------------------------------
 
-st.sidebar.title("🍲 Food Wastage Management")
+st.sidebar.title("🍲 Food Wastage")
+st.sidebar.markdown("### Management System")
 
 page = st.sidebar.radio(
     "Navigation",
