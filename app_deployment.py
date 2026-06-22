@@ -93,10 +93,9 @@ if page == "Dashboard":
 
 elif page == "EDA":
 
-    st.header("EDA Charts")
+    st.header("📈 EDA Charts")
 
     chart_files = [
-
         "provider_type_distribution.png",
         "receiver_type_distribution.png",
         "food_type_distribution.png",
@@ -105,23 +104,18 @@ elif page == "EDA":
         "provider_type_vs_quantity.png",
         "food_type_vs_quantity.png",
         "meal_type_vs_quantity.png",
+        "city_provider_quantity.png",
+        "food_meal_quantity.png",
+        "provider_claim_quantity.png",
+        "receiver_claim_quantity.png",
         "claim_status_distribution.png",
         "top_receivers.png",
         "top_providers.png"
-
     ]
 
     for chart in chart_files:
-
-        try:
-
-            st.image("provider_type_distribution.png")
-            
-        except:
-
-            st.warning(
-                f"Missing file: {chart}"
-            )
+        st.subheader(chart.replace(".png","").replace("_"," "))
+        st.image(chart, use_container_width=True)
 
 elif page == "Data Tables":
 
