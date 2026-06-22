@@ -25,7 +25,7 @@ food_count = len(food)
 claims_count = len(claims)
 
 total_qty = 0
-# total_qty = food["Quantity_Available"].sum()
+total_qty = food["Quantity"].sum()
 
 completed_claims = len(
     claims[
@@ -82,7 +82,7 @@ if page == "Dashboard":
 
     provider_quantity = food.groupby(
         "Provider_Type"
-    )["Quantity_Available"].sum()
+    )["Quantity"].sum()
 
     st.subheader("Provider Type Contribution")
 
