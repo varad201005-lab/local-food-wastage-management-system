@@ -1,33 +1,56 @@
-import os
 import pandas as pd
 import streamlit as st
+import plotly.express as px
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.dirname(BASE_DIR)
+# --------------------------------------------------
+# PAGE CONFIG
+# --------------------------------------------------
+
+st.set_page_config(
+    page_title="Local Food Wastage Management System",
+    layout="wide"
+)
+
+# --------------------------------------------------
+# CUSTOM CSS
+# --------------------------------------------------
+
+st.markdown("""
+<style>
+
+div[data-testid="metric-container"] {
+    background-color: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+div[data-testid="metric-container"] label {
+    font-weight: bold;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+# --------------------------------------------------
+# LOAD DATA
+# --------------------------------------------------
 
 providers = pd.read_csv("providers_cleaned.csv")
-
 receivers = pd.read_csv("receivers_cleaned.csv")
-
 food = pd.read_csv("food_listings_cleaned.csv")
-#st.write("FOOD COLUMNS:")
-#st.write(list(food.columns))
-
-#st.write(food.columns.tolist())
-
 claims = pd.read_csv("claims_cleaned.csv")
-#st.write("CLAIMS COLUMNS:")
-#st.write(list(claims.columns))
+
+# --------------------------------------------------
+# KPI CALCULATIONS
+# --------------------------------------------------
 
 providers_count = len(providers)
-
 receivers_count = len(receivers)
-
 food_count = len(food)
-
 claims_count = len(claims)
 
-total_qty = 0
 total_qty = food["Quantity"].sum()
 
 completed_claims = len(
@@ -36,33 +59,11 @@ completed_claims = len(
     ]
 )
 
-st.title("🍲 Local Food Wastage Management System")
+# --------------------------------------------------
+# SIDEBAR
+# --------------------------------------------------
 
-st.subheader(
-    "Connecting surplus food providers with those in need"
-)
-
-col1, col2, col3, col4, col5, col6 = st.columns(6)
-
-with col1:
-    st.metric("Providers", providers_count)
-
-with col2:
-    st.metric("Receivers", receivers_count)
-
-with col3:
-    st.metric("Listings", food_count)
-
-with col4:
-    st.metric("Claims", claims_count)
-
-with col5:
-    st.metric("Total Qty", total_qty)
-
-with col6:
-    st.metric("Completed", completed_claims)
-
-st.sidebar.title("🍲 Food Wastage")
+st.sidebar.title("🍲 Food Wastage Management")
 
 page = st.sidebar.radio(
     "Navigation",
@@ -73,27 +74,100 @@ page = st.sidebar.radio(
         "Business Insights"
     ]
 )
+
+# --------------------------------------------------
+# DASHBOARD
+# --------------------------------------------------
+
 if page == "Dashboard":
 
-    st.header("Dashboard Overview")
+    st.title("🍲 Local Food Wastage Management System")
 
-    claim_status = claims["Status"].value_counts()
+    st.subheader(
+        "Connecting surplus food providers with receivers to reduce food wastage"
+    )
 
-    st.subheader("Claim Status Distribution")
+    st.markdown("### Key Performance Indicators")
 
-    st.bar_chart(claim_status)
+    row1_col1, row1_col2, row1_col3 = st.columns(3)
+    row2_col1, row2_col2, row2_col3 = st.columns(3)
 
-    provider_quantity = food.groupby(
-        "Provider_Type"
-    )["Quantity"].sum()
+    with row1_col1:
+        st.metric("👨‍🍳 Providers", providers_count)
 
-    st.subheader("Provider Type Contribution")
+    with row1_col2:
+        st.metric("🤝 Receivers", receivers_count)
 
-    st.bar_chart(provider_quantity)
+    with row1_col3:
+        st.metric("🍱 Food Listings", food_count)
+
+    with row2_col1:
+        st.metric("📦 Claims", claims_count)
+
+    with row2_col2:
+        st.metric("🥗 Total Quantity", total_qty)
+
+    with row2_col3:
+        st.metric("✅ Completed Claims", completed_claims)
+
+    st.markdown("---")
+
+    st.info("""
+    ### Project Overview
+
+    This dashboard helps reduce food wastage by connecting food providers
+    with receivers. The system uses Python, SQL Server, EDA, and Streamlit
+    to analyze food donation patterns, claims, distribution efficiency,
+    and demand trends.
+    """)
+
+    chart_col1, chart_col2 = st.columns(2)
+
+    with chart_col1:
+
+        claim_df = claims["Status"].value_counts().reset_index()
+        claim_df.columns = ["Status", "Count"]
+
+        fig1 = px.pie(
+            claim_df,
+            names="Status",
+            values="Count",
+            title="Claim Status Distribution",
+            hole=0.5
+        )
+
+        st.plotly_chart(
+            fig1,
+            use_container_width=True
+        )
+
+    with chart_col2:
+
+        provider_quantity = (
+            food.groupby("Provider_Type")["Quantity"]
+            .sum()
+            .reset_index()
+        )
+
+        fig2 = px.bar(
+            provider_quantity,
+            x="Provider_Type",
+            y="Quantity",
+            title="Provider Type Contribution"
+        )
+
+        st.plotly_chart(
+            fig2,
+            use_container_width=True
+        )
+
+# --------------------------------------------------
+# EDA PAGE
+# --------------------------------------------------
 
 elif page == "EDA":
 
-    st.header("📈 EDA Charts")
+    st.title("📈 Exploratory Data Analysis")
 
     chart_files = [
         "provider_type_distribution.png",
@@ -113,11 +187,45 @@ elif page == "EDA":
         "top_providers.png"
     ]
 
-    for chart in chart_files:
-        st.subheader(chart.replace(".png","").replace("_"," "))
-        st.image(chart, use_container_width=True)
+    for i in range(0, len(chart_files), 2):
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            if i < len(chart_files):
+                st.subheader(
+                    chart_files[i]
+                    .replace(".png", "")
+                    .replace("_", " ")
+                    .title()
+                )
+
+                st.image(
+                    chart_files[i],
+                    use_container_width=True
+                )
+
+        with col2:
+            if i + 1 < len(chart_files):
+                st.subheader(
+                    chart_files[i + 1]
+                    .replace(".png", "")
+                    .replace("_", " ")
+                    .title()
+                )
+
+                st.image(
+                    chart_files[i + 1],
+                    use_container_width=True
+                )
+
+# --------------------------------------------------
+# DATA TABLES
+# --------------------------------------------------
 
 elif page == "Data Tables":
+
+    st.title("📋 Data Tables")
 
     option = st.selectbox(
         "Select Table",
@@ -130,47 +238,82 @@ elif page == "Data Tables":
     )
 
     if option == "Providers":
-        st.dataframe(providers)
+        st.dataframe(providers, use_container_width=True)
 
     elif option == "Receivers":
-        st.dataframe(receivers)
+        st.dataframe(receivers, use_container_width=True)
 
     elif option == "Food Listings":
-        st.dataframe(food)
+        st.dataframe(food, use_container_width=True)
 
     else:
-        st.dataframe(claims)
+        st.dataframe(claims, use_container_width=True)
+
+# --------------------------------------------------
+# BUSINESS INSIGHTS
+# --------------------------------------------------
 
 elif page == "Business Insights":
 
-    st.header("Business Insights")
+    st.title("📊 Business Insights")
 
-    highest_city = food["Location"].value_counts().head(1)
+    insight_col1, insight_col2 = st.columns(2)
 
-    st.subheader(
-        "City with Highest Food Listings"
-    )
+    with insight_col1:
 
-    st.dataframe(highest_city)
+        st.subheader("🏙️ City with Highest Food Listings")
 
-    top_food = food["Food_Type"].value_counts().head(1)
+        highest_city = (
+            food["Location"]
+            .value_counts()
+            .head(1)
+        )
 
-    st.subheader(
-        "Most Common Food Type"
-    )
+        st.dataframe(highest_city)
 
-    st.dataframe(top_food)
+        st.subheader("🥗 Most Common Food Type")
 
-    top_meal = food["Meal_Type"].value_counts().head(1)
+        top_food = (
+            food["Food_Type"]
+            .value_counts()
+            .head(1)
+        )
 
-    st.subheader(
-        "Most Common Meal Type"
-    )
+        st.dataframe(top_food)
 
-    st.dataframe(top_meal)
+    with insight_col2:
+
+        st.subheader("🍽️ Most Common Meal Type")
+
+        top_meal = (
+            food["Meal_Type"]
+            .value_counts()
+            .head(1)
+        )
+
+        st.dataframe(top_meal)
+
+        st.subheader("📈 Claim Status Summary")
+
+        status_summary = (
+            claims["Status"]
+            .value_counts()
+            .reset_index()
+        )
+
+        status_summary.columns = [
+            "Status",
+            "Count"
+        ]
+
+        st.dataframe(status_summary)
+
+# --------------------------------------------------
+# FOOTER
+# --------------------------------------------------
 
 st.markdown("---")
 
 st.caption(
-    "Developed by Varad Kulkarni | Local Food Wastage Management System"
+    "Developed by Varad Kulkarni | CSE (Data Science) | St. John College of Engineering and Management"
 )
