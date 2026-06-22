@@ -10,11 +10,14 @@ providers = pd.read_csv("providers_cleaned.csv")
 receivers = pd.read_csv("receivers_cleaned.csv")
 
 food = pd.read_csv("food_listings_cleaned.csv")
-st.write("FOOD COLUMNS:")
-st.write(list(food.columns))
-st.write(food.columns.tolist())
+#st.write("FOOD COLUMNS:")
+#st.write(list(food.columns))
+
+#st.write(food.columns.tolist())
 
 claims = pd.read_csv("claims_cleaned.csv")
+st.write("CLAIMS COLUMNS:")
+st.write(list(claims.columns))
 
 providers_count = len(providers)
 
