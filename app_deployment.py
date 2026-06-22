@@ -1,28 +1,26 @@
-import streamlit as st
+import os
 import pandas as pd
+import streamlit as st
 
-st.set_page_config(
-    page_title="Local Food Wastage Management System",
-    layout="wide"
-)
-
-# LOAD CSV FILES
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(BASE_DIR)
 
 providers = pd.read_csv(
-    "deployment_data/providers_cleaned.csv"
+    os.path.join(PROJECT_ROOT, "deployment_data", "providers_cleaned.csv")
 )
 
 receivers = pd.read_csv(
-    "deployment_data/receivers_cleaned.csv"
+    os.path.join(PROJECT_ROOT, "deployment_data", "receivers_cleaned.csv")
 )
 
 food = pd.read_csv(
-    "deployment_data/food_listings_cleaned.csv"
+    os.path.join(PROJECT_ROOT, "deployment_data", "food_listings_cleaned.csv")
 )
 
 claims = pd.read_csv(
-    "deployment_data/claims_cleaned.csv"
+    os.path.join(PROJECT_ROOT, "deployment_data", "claims_cleaned.csv")
 )
+
 providers_count = len(providers)
 
 receivers_count = len(receivers)
