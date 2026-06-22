@@ -10,6 +10,8 @@ providers = pd.read_csv("providers_cleaned.csv")
 receivers = pd.read_csv("receivers_cleaned.csv")
 
 food = pd.read_csv("food_listings_cleaned.csv")
+st.write("FOOD COLUMNS:")
+st.write(list(food.columns))
 st.write(food.columns.tolist())
 
 claims = pd.read_csv("claims_cleaned.csv")
@@ -22,7 +24,8 @@ food_count = len(food)
 
 claims_count = len(claims)
 
-total_qty = food["Quantity_Available"].sum()
+total_qty = 0
+# total_qty = food["Quantity_Available"].sum()
 
 completed_claims = len(
     claims[
